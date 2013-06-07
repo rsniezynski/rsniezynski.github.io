@@ -1,0 +1,106 @@
+body {
+	background-color: #e5e5e5;
+	color: #4c4c4c;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 50px 50px 50px 50px;
+	line-height: 1.3em;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 1.0em;
+	font-weight: bold;
+	margin-bottom: 10px;
+    margin-top: 10px;
+    /*text-transform: lowercase;*/
+}
+
+a {
+	text-decoration: underline;
+	color: #222;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li span.head {
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+p.links {
+    text-align: left;
+	font-size: 0.7em;
+    line-height: 1em;
+	margin-bottom: 5px;
+}
+
+#menu {
+	margin: 15px 0 15px 0;
+}
+
+#content {
+	width: 35em;
+	text-align: justify;
+}
+
+.hyphenate p {
+	margin-bottom: 10px;
+}
+
+#foot {
+    width: 35em;
+	margin-top: 20px;
+    float: left;
+    clear: both;
+}
+
+.projects {
+    width: 700px;
+    clear: both;
+    float: left;
+    margin: 10px 0 10px 0;
+}
+
+
+.project_item {
+    float: left;
+    width: 170px;
+    margin: 0 35px 15px 0;
+    height: 96px;
+}
+
+.project_item img {
+    border: 1px solid #ddd;
+}
+
+div.project_details {
+    min-height: 8em;
+}
+
+div.project_details span.head {
+	font-weight: bold;
+}
+
+div.project_details p {
+    font-size: 0.9em;
+    text-align: left;
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+}
